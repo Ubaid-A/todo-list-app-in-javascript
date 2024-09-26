@@ -1,0 +1,28 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a0a0cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the todo list */
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    color: #4a90e2;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
